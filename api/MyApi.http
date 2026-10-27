@@ -1,0 +1,24 @@
+@MyApi_HostAddress = http://localhost:5250
+
+GET {{MyApi_HostAddress}}/api/todos
+Accept: application/json
+
+###
+
+GET {{MyApi_HostAddress}}/api/todos/1
+Accept: application/json
+
+###
+
+POST {{MyApi_HostAddress}}/api/todos
+Content-Type: application/json
+
+{
+  "title": "Buy milk"
+}
+
+###
+
+DELETE {{MyApi_HostAddress}}/api/todos/1
+
+###

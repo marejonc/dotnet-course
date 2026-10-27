@@ -1,0 +1,12 @@
+# Build output
+bin/
+obj/
+
+# IDE / user-specific
+.vs/
+*.user
+*.suo
+.idea/
+
+# OS
+.DS_Store
